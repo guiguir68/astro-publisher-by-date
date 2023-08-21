@@ -30,7 +30,7 @@ function fromDir(startPath: string, filter: string) {
   return output;
 }
 
-export default function outProxy(): AstroIntegration {
+export default function publisherByDate(): AstroIntegration {
   return {
     name: "publisher-by-date",
     hooks: {
