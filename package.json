@@ -1,0 +1,35 @@
+{
+    "name": "astro-publisher-by-date",
+    "author": "Guillaume Reichenbach <guillaume@reichenbach.pm>",
+    "homepage": "https://github.com/guiguir68/astro-publisher-by-date",
+    "bugs": {
+      "url": "https://github.com/guiguir68/astro-publisher-by-date/issues"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/guiguir68/astro-publisher-by-date.git"
+    },
+    "license": "MIT",
+    "version": "0.0.1",
+    "description": "An Astro module for filtering and generating pages based on their publication date field in Markdown files.",
+    "main": "index.ts",
+    "keywords": [
+      "astro-integration",
+      "astro-component",
+      "withastro",
+      "publisher",
+      "date",
+      "markdown",
+      "mdx"
+    ],
+    "dependencies": {
+    },
+    "devDependencies": {
+      "@types/node": "^20.4.4",
+      "astro": "^2.9.1"
+    },
+    "type": "module",
+    "exports": {
+      ".": "./src/index.ts"
+    }
+  }
